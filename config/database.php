@@ -45,12 +45,12 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', '127.0.0.1'),
+            'url' => env('DATABASE_URL', 'https://php-myadmin.net/db_structure.php?db=ezyro_35407790_codebattle'),
+            'host' => env('DB_HOST', 'sql111.ezyro.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'ezyro_35407790_codebattle'),
+            'username' => env('DB_USERNAME', 'ezyro_35407790'),
+            'password' => env('DB_PASSWORD', 'c2deb1ecce9bf'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
